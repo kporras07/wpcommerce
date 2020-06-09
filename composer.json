@@ -28,7 +28,10 @@
         "wpackagist-plugin/woocommerce": "^4.2",
         "johnpbloch/wordpress": "^5.4",
         "fancyguy/webroot-installer": "^1.1",
-        "kporras07/composer-symlinks": "dev-master"
+        "kporras07/composer-symlinks": "dev-master",
+        "wpackagist-plugin/jetpack": "^8.6",
+        "wpackagist-plugin/woocommerce-services": "^1.23",
+        "wpackagist-theme/storefront": "^2.5"
     },
     "require-dev": {
         "chirripo/chirripo": "^1.0"
@@ -37,7 +40,8 @@
         "webroot-dir": "./wordpress",
         "webroot-package": "johnpbloch/wordpress",
         "symlinks": {
-            "wp-content/plugins/woocommerce": "wordpress/wp-content/plugins/woocommerce"
+            "wp-content/plugins": "wordpress/wp-content/plugins",
+            "wp-content/themes": "wordpress/wp-content/themes"
         }
     }
 }

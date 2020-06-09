@@ -15,6 +15,14 @@
             "url": "https://wpackagist.org"
         }
     ],
+    "scripts": {
+        "post-install-cmd": [
+            "Kporras07\\ComposerSymlinks\\ScriptHandler::createSymlinks"
+        ],
+        "post-update-cmd": [
+            "Kporras07\\ComposerSymlinks\\ScriptHandler::createSymlinks"
+        ]
+    },
     "minimum-stability": "dev",
     "require": {
         "wpackagist-plugin/woocommerce": "^4.2",

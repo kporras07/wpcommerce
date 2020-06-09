@@ -1,2 +1,4 @@
 vendor
-wordpress
+wordpress/wp-admin
+wordpress/wp-content
+wordpress/wp-includes

@@ -17,8 +17,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "johnpbloch/wordpress-core-installer": "^2.0",
-        "johnpbloch/wordpress-core": "^5.0",
+        "wpackagist-plugin/woocommerce": "^4.2",
+        "johnpbloch/wordpress": "^5.4",
         "fancyguy/webroot-installer": "^1.1"
     },
     "require-dev": {
@@ -26,6 +26,6 @@
     },
     "extra": {
         "webroot-dir": "wordpress",
-        "webroot-package": "johnpbloch/wordpress-core"
+        "webroot-package": "johnpbloch/wordpress"
     }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e72998b52b49560985221eb0bbeb0bef",
+    "content-hash": "d6e157d233406bb6292e1124aaff48e7",
     "packages": [
         {
             "name": "composer/installers",
@@ -483,6 +483,60 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
+        },
+        {
+            "name": "wpackagist-plugin/tipo-de-cambio-costa-rica",
+            "version": "1.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tipo-de-cambio-costa-rica/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tipo-de-cambio-costa-rica.zip?timestamp=1487366838"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tipo-de-cambio-costa-rica/"
+        },
+        {
+            "name": "wpackagist-plugin/wc-provincia-canton-distrito",
+            "version": "1.2.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wc-provincia-canton-distrito/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wc-provincia-canton-distrito.zip?timestamp=1589244100"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wc-provincia-canton-distrito/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-correos-de-costa-rica-shipping",
+            "version": "1.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-correos-de-costa-rica-shipping/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-correos-de-costa-rica-shipping.zip?timestamp=1576244410"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-correos-de-costa-rica-shipping/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",

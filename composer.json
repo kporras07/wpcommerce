@@ -31,7 +31,10 @@
         "kporras07/composer-symlinks": "dev-master",
         "wpackagist-plugin/jetpack": "^8.6",
         "wpackagist-plugin/woocommerce-services": "^1.23",
-        "wpackagist-theme/storefront": "^2.5"
+        "wpackagist-theme/storefront": "^2.5",
+        "wpackagist-plugin/woo-correos-de-costa-rica-shipping": "^1.0",
+        "wpackagist-plugin/tipo-de-cambio-costa-rica": "^1.0",
+        "wpackagist-plugin/wc-provincia-canton-distrito": "^1.2"
     },
     "require-dev": {
         "chirripo/chirripo": "^1.0"

@@ -18,9 +18,14 @@
     "minimum-stability": "dev",
     "require": {
         "johnpbloch/wordpress-core-installer": "^2.0",
-        "johnpbloch/wordpress-core": "^5.0"
+        "johnpbloch/wordpress-core": "^5.0",
+        "fancyguy/webroot-installer": "^1.1"
     },
     "require-dev": {
         "chirripo/chirripo": "^1.0"
+    },
+    "extra": {
+        "webroot-dir": "wordpress",
+        "webroot-package": "johnpbloch/wordpress-core"
     }
 }

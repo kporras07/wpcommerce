@@ -19,13 +19,17 @@
     "require": {
         "wpackagist-plugin/woocommerce": "^4.2",
         "johnpbloch/wordpress": "^5.4",
-        "fancyguy/webroot-installer": "^1.1"
+        "fancyguy/webroot-installer": "^1.1",
+        "kporras07/composer-symlinks": "dev-master"
     },
     "require-dev": {
         "chirripo/chirripo": "^1.0"
     },
     "extra": {
-        "webroot-dir": "wordpress",
-        "webroot-package": "johnpbloch/wordpress"
+        "webroot-dir": "./wordpress",
+        "webroot-package": "johnpbloch/wordpress",
+        "symlinks": {
+            "wp-content/plugins/woocommerce": "wordpress/wp-content/plugins/woocommerce"
+        }
     }
 }

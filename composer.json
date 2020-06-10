@@ -39,8 +39,6 @@
         "chirripo/chirripo": "^1.0"
     },
     "extra": {
-        "webroot-dir": "./wordpress",
-        "webroot-package": "johnpbloch/wordpress",
         "symlinks": {
             "wp-content/plugins": "wordpress/wp-content/plugins",
             "wp-content/themes": "wordpress/wp-content/themes"

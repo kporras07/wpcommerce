@@ -27,7 +27,6 @@
     "require": {
         "wpackagist-plugin/woocommerce": "^4.2",
         "johnpbloch/wordpress": "^5.4",
-        "fancyguy/webroot-installer": "^1.1",
         "kporras07/composer-symlinks": "dev-master",
         "wpackagist-plugin/jetpack": "^8.6",
         "wpackagist-plugin/woocommerce-services": "^1.23",
